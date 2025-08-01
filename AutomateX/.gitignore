@@ -1,0 +1,149 @@
+# =================================================================
+# General / Miscellaneous
+# These rules can apply to any directory.
+# =================================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+npm-debug.log
+yarn-error.log
+
+# =================================================================
+# Editor / IDE specific
+# Keep these in the root so they apply everywhere.
+# =================================================================
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+# Fleet
+/.fleet
+
+# VSCode - It's good practice to share launch/task configurations,
+# so we will leave this commented out.
+# .vscode/
+
+# =================================================================
+# Flutter Frontend (/frontend-flutter/)
+# All paths are relative to the root, so they must start with the folder name.
+# =================================================================
+/frontend-flutter/doc/api/
+/frontend-flutter/ios/Flutter/.last_build_id
+/frontend-flutter/.dart_tool/
+/frontend-flutter/.flutter-plugins
+/frontend-flutter/.flutter-plugins-dependencies
+/frontend-flutter/.packages
+/frontend-flutter/.pub-cache/
+/frontend-flutter/.pub/
+/frontend-flutter/build/
+
+# Symbolication related
+/frontend-flutter/app.*.symbols
+
+# Obfuscation related
+/frontend-flutter/app.*.map.json
+
+# Android Studio will place build artifacts here
+/frontend-flutter/android/app/debug
+/frontend-flutter/android/app/profile
+/frontend-flutter/android/app/release
+
+# =================================================================
+# Laravel Backend (/backend-laravel/)
+# All paths are relative to the root, so they must start with the folder name.
+# =================================================================
+/backend-laravel/.phpunit.cache
+/backend-laravel/node_modules
+/backend-laravel/public/build
+/backend-laravel/public/hot
+/backend-laravel/public/storage
+/backend-laravel/storage/*.key
+/backend-laravel/vendor
+/backend-laravel/.env
+/backend-laravel/.env.backup
+/backend-laravel/.env.production
+/backend-laravel/Homestead.json
+/backend-laravel/Homestead.yaml
+/backend-laravel/auth.json# =================================================================
+# General / Miscellaneous
+# These rules can apply to any directory.
+# =================================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+npm-debug.log
+yarn-error.log
+
+# =================================================================
+# Editor / IDE specific
+# Keep these in the root so they apply everywhere.
+# =================================================================
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+# Fleet
+/.fleet
+
+# VSCode - It's good practice to share launch/task configurations,
+# so we will leave this commented out.
+# .vscode/
+
+# =================================================================
+# Flutter Frontend (/frontend-flutter/)
+# All paths are relative to the root, so they must start with the folder name.
+# =================================================================
+/frontend-flutter/doc/api/
+/frontend-flutter/ios/Flutter/.last_build_id
+/frontend-flutter/.dart_tool/
+/frontend-flutter/.flutter-plugins
+/frontend-flutter/.flutter-plugins-dependencies
+/frontend-flutter/.packages
+/frontend-flutter/.pub-cache/
+/frontend-flutter/.pub/
+/frontend-flutter/build/
+
+# Symbolication related
+/frontend-flutter/app.*.symbols
+
+# Obfuscation related
+/frontend-flutter/app.*.map.json
+
+# Android Studio will place build artifacts here
+/frontend-flutter/android/app/debug
+/frontend-flutter/android/app/profile
+/frontend-flutter/android/app/release
+
+# =================================================================
+# Laravel Backend (/backend-laravel/)
+# All paths are relative to the root, so they must start with the folder name.
+# =================================================================
+/backend-laravel/.phpunit.cache
+/backend-laravel/node_modules
+/backend-laravel/public/build
+/backend-laravel/public/hot
+/backend-laravel/public/storage
+/backend-laravel/storage/*.key
+/backend-laravel/vendor
+/backend-laravel/.env
+/backend-laravel/.env.backup
+/backend-laravel/.env.production
+/backend-laravel/Homestead.json
+/backend-laravel/Homestead.yaml
+/backend-laravel/auth.json
